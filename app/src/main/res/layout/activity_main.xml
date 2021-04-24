@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/PermissionSettingBtn"
         android:layout_width="271dp"
         android:layout_height="0dp"
         android:layout_marginTop="52dp"
