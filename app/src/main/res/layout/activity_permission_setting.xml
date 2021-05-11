@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PermissionSettingActivity">
+
+    <TextView
+        android:id="@+id/FlyMode"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:text="FlyMode"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/FlyModeSetTrueBtn"
+        android:layout_width="73dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:text="Set True"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/FlyModeState"
+        app:layout_constraintTop_toTopOf="@+id/FlyMode"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/FlyModeState"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/FlyMode"
+        app:layout_constraintTop_toTopOf="@+id/FlyMode" />
+
+    <Button
+        android:id="@+id/FlyModeGetBtn"
+        android:layout_width="62dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="4dp"
+        android:text="GET"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/FlyModeSetFalseBtn"
+        app:layout_constraintTop_toTopOf="@+id/FlyMode"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/FlyModeSetFalseBtn"
+        android:layout_width="82dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:text="Set False"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/FlyModeSetTrueBtn"
+        app:layout_constraintTop_toTopOf="@+id/FlyMode"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/cameraPemissionSetFalseBtn"
+        android:layout_width="82dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="88dp"
+        android:text="Set False"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/CameraPermissionState"
+        app:layout_constraintTop_toTopOf="@+id/Camera"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/CameraPemissionGetBtn"
+        android:layout_width="62dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="12dp"
+        android:text="GET"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/cameraPemissionSetFalseBtn"
+        app:layout_constraintTop_toTopOf="@+id/Camera"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/CameraPemissionSetTrueBtn"
+        android:layout_width="73dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:text="Set True"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/CameraPermissionState"
+        app:layout_constraintTop_toTopOf="@+id/Camera"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/Camera"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Camera"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/CameraPermissionState"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/Camera"
+        app:layout_constraintTop_toTopOf="@+id/Camera" />
+</androidx.constraintlayout.widget.ConstraintLayout>
