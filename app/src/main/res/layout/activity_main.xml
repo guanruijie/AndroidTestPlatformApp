@@ -7,6 +7,16 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/bluetoothTestBtn"
+        android:layout_width="271dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="132dp"
+        android:text="蓝牙文件传输测试"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/PermissionSettingBtn"
         android:layout_width="271dp"
         android:layout_height="0dp"
